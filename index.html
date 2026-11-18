@@ -34,9 +34,16 @@
 
     <div class="response-box" rows="1" id="Textarea" readonly="true" placeholder="You'r Voice"></div>
     <div class="response-box" rows="1" id="ReplyBox" readonly="true" placeholder="AI replay"></div>
+    <div id="Status" class="status-message" role="status" aria-live="polite"></div>
 
 
-    <button onclick="start()" class="btn btn-primary mt-3">Start</button>
+    <button id="StartButton" type="button" class="btn btn-primary mt-3">Start microphone</button>
+
+    <form id="TextInputForm" class="text-input-form">
+      <label for="TextInput" class="visually-hidden">Type a command</label>
+      <input id="TextInput" type="text" class="form-control" placeholder="Mic unavailable? Type a command">
+      <button type="submit" class="btn btn-secondary">Send</button>
+    </form>
   </div>
 
   <!-- Bootstrap Icons (optional for mic icon) -->

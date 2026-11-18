@@ -31,3 +31,27 @@
       margin-bottom: 1rem;
       min-height: 50px;
     }
+
+    .status-message {
+      min-height: 24px;
+      margin-bottom: 0.5rem;
+      color: #4d4d67;
+      font-size: 0.95rem;
+    }
+
+    .text-input-form {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
