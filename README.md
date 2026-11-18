@@ -3,5 +3,7 @@
 
 ## Live App
 
-[Click here to view the live app](https://aniruddha797.github.io/Voice-Assistance/)
+- **HTTPS:** https://dinithpriyashan.github.io/voice-Bot/
+
+GitHub Pages provides HTTPS/TLS for this app. Microphone access requires HTTPS or localhost.
 
